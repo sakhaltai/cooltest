@@ -36,7 +36,8 @@
             <h2>Skills</h2>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis in maiores autem quidem obcaecati excepturi! Cupiditate eaque itaque magni voluptatibus neque nobis est dolor? Atque sunt minus ipsa asperiores. At.</p>
             <h2>Projects</h2>
-            <iframe src="index_160600_1.html" frameborder="0"></iframe>
+            <iframe ng-if="$ctrl.currentPreview" id="preview-frame" height="600" width="160" ng-attr-sandbox="allow-same-origin allow-scripts {{$ctrl.allowPopups ? 'allow-popups' : ''}}" scrolling="no" class="ng-scope" sandbox="allow-same-origin allow-scripts " src="//h5validator.appspot.com/api/preview/6069953024360448/index.html">
+            </iframe>
             <a href="#">Project 2</a>
             <a href="#">Project 3</a>
             <a href="#">Project 4</a>
